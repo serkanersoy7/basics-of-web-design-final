@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X -UA-Compatible" 
+    contect="IE=edge">
+    <meta name="wieport"
+     content="width=device-widht,
+     intial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>BİLETİN WEB SİTE</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<!-- header section start -->
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#">ANA SAYFA</a>
+            <a href="#">MÜZİK</a>
+            <a href="#">SAHNE</a>
+            <a href="#">SPOR</a>
+            <a href="#">AİLE</a>
+            <a href="#">EĞİTİM</a>
+            <a href="#">İLETİŞİM</a>
+        </nav>
+        <div class="buttons">
+
+            <button>
+            <i class="fas fa-search"></i>
+            </button>
+
+            <button>
+                <i class="fas fa-shopping-cart"></i>
+                </button>
+
+                <button>
+                    <i class="fas fa-bars"></i>
+                    </button>
+        </div>
+    </header>
+<!-- header section end -->
+
+<!-- home section start-->
+<section class="home">
+<div class="content">    <h3> KÜLTÜREL YOLCULUĞUN BAŞLANGIÇ YERİ.</h3>
+    <p>müzik, spor, sahne, aile, eğitim her türlü bileti 
+    zorlanmadan bulacağın tek adres BİLETİN.com.tr
+    </p>
+    <a href="#"class="btn">şimdi satın al</a>
+
+</div>
+</section>
+<!-- home section end -->
+
+
+<!--menu section start -->
+
+<section class="menü">
+    <h1 class="heading">POPÜLER <span>SANATÇILAR</span></h1>
+    <div class="box-container"> 
+        <div class="box">
+            <div class="box-head">
+                <img src="images/ceza.jpg" 
+                alt="menü">
+                <span class="menu-category">RAP</span>
+                <H3>CEZA</H3>
+                <div class="price">ŞİMDİ ALIRSAN 50₺
+                <span>69.99₺ </span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/sago.jpg" 
+                alt="menü">
+                <span class="menu-category">RAP</span>
+                <H3>SAGOPA KAJMER</H3>
+                <div class="price">ŞİMDİ ALIRSAN 70₺
+                <span>80₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/gazapizm.jpg" 
+                alt="menü">
+                <span class="menu-category">RAP</span>
+                <H3>GAZAPİZM</H3>
+                <div class="price">ŞİMDİ ALIRSAN 101₺
+                <span>120₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/mabel.jpg" 
+                alt="menü">
+                <span class="menu-category">POP</span>
+                <H3>MABEL MATİZ</H3>
+                <div class="price">ŞİMDİ ALIRSAN 100₺
+                <span>149.50₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- menu section end -->
+
+<!-- producst section end -->
+<section class="producst">
+    <h1 class="heading">DİĞER <span>SANATÇILAR</span></h1>
+    <div class="box-container"> 
+        <div class="box">
+            <div class="box-head">
+                <img src="images/tarkan.png" 
+                alt="producst">
+                <span class="menu-category">POP</span>
+                <H3>TARKAN</H3>
+                <div class="price">ŞİMDİ ALIRSAN 80₺
+                <span>130.50₺ </span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/aksu.jpg" 
+                alt="menü">
+                <span class="menu-category">POP</span>
+                <H3>SEZEN AKSU</H3>
+                <div class="price">ŞİMDİ ALIRSAN 150₺
+                <span>250₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/bağcan.jpg" 
+                alt="menü">
+                <span class="menu-category">HALK MÜZİĞİ</span>
+                <H3>SELDA BAĞCAN</H3>
+                <div class="price">ŞİMDİ ALIRSAN   101₺
+                <span>120₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="images/göksel.jpg" 
+                alt="menü">
+                <span class="menu-category">POP</span>
+                <H3>MABEL MATİZ</H3>
+                <div class="price">ŞİMDİ ALIRSAN 125₺
+                <span>178.50₺</span></div> 
+            </div>
+            <div class="box-bottom">
+                <a href="#" class="btn">KART İLE AL</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- producst section end -->
+
+    
